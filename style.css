@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d6efd;
+  color: white;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
